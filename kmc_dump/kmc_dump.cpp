@@ -150,8 +150,8 @@ void print_info(void)
 			  << "Parameters:\n"
 			  << "<mmc_database> - kmer_counter's output\n"
 			  << "Options:\n"
-			  << "-ci<value> - exclude k-mers occurring less than <value> times\n"
-			  << "-cx<value> - exclude k-mers occurring more of than <value> times\n";
+			  << "-ci<value> - exclude minimizers occurring less than <value> times\n"
+			  << "-cx<value> - exclude minimizers occurring more of than <value> times\n";
 }
 
 // ***** EOF
