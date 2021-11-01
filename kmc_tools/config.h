@@ -273,21 +273,21 @@ public:
 	
 	void Display() const override
 	{
-		std::cout << "kmc_tools ver. " << KMC_VER << " (" << KMC_DATE << ")\n"
-				  << "Usage:\n kmc_tools [global parameters] <operation> [operation parameters]\n"
+		std::cout << "mmc_tools ver. " << KMC_VER << " (" << KMC_DATE << ")\n"
+				  << "Usage:\n mmc_tools [global parameters] <operation> [operation parameters]\n"
 				  << "Available operations:\n"
-				  << "  transform            - transforms single KMC's database\n"
-				  << "  simple               - performs set operation on two KMC's databases\n"
-				  << "  complex              - performs set operation on multiple KMC's databases\n"
+				  << "  transform            - transforms single MMC's database\n"
+				  << "  simple               - performs set operation on two MMC's databases\n"
+				  << "  complex              - performs set operation on multiple MMC's databases\n"
 				  << "  filter               - filter out reads with too small number of k-mers\n"
 				  << " global parameters:\n"
 				  << "  -t<value>            - total number of threads (default: no. of CPU cores)\n"
 				  << "  -v                   - enable verbose mode (shows some information) (default: false)\n"
 				  << "  -hp                  - hide percentage progress (default: false)\n"
 				  << "Example:\n"
-				  << "kmc_tools simple db1 -ci3 db2 -ci5 -cx300 union db1_union_db2 -ci10\n"
+				  << "mmc_tools simple db1 -ci3 db2 -ci5 -cx300 union db1_union_db2 -ci10\n"
 				  << "For detailed help of concrete operation type operation name without parameters:\n"
-				  << "kmc_tools simple\n";
+				  << "mmc_tools simple\n";
 	}
 };
 
